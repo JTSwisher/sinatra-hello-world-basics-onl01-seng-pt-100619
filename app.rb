@@ -4,7 +4,7 @@ class App < Sinatra::Base
 
   get '/' do 
      resp.write "Hello, World!"
-     resp.response = 200
+     resp.status = 200
    end 
   
 
